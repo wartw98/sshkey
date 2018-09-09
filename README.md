@@ -10,7 +10,7 @@ sh install.sh
 curl -o https://jumpskycloud.s3-accelerate.amazonaws.com/install.sh
 sh install.sh
 ```
-節點3(躍空日本)
+節點3(躍空日本-AWS CDN)
 ```
 curl -o https://d2osib454us55m.cloudfront.net/install.sh
 sh install.sh
