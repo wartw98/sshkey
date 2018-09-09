@@ -66,6 +66,8 @@ else
 		sh sshkey.sh
 		rm -rf sshkey.sh
 		rm -rf sources_mirrors.list
+		rm -rf mirrors_speed.list
+		rm -rf install.sh
 		echo "The installation is complete"
 		fi
 fi
