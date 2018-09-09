@@ -1,3 +1,5 @@
+yum install wget unzip zip -y
+wget https://raw.githubusercontent.com/wartw98/sshkey/master/sources_mirrors.list
 #server test
 TEST_NETCONNECT_HOST="google.com"
 SOURCES_MIRRORS_FILE="sources_mirrors.list"	
@@ -63,6 +65,7 @@ else
 		wget $fast_mirror/sshkey.sh
 		sh sshkey.sh
 		rm -rf sshkey.sh
+		rm -rf sources_mirrors.list
 		echo "The installation is complete"
 		fi
 fi
