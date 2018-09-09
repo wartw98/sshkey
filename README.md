@@ -1,5 +1,6 @@
-# 躍空管理專用SSH公KEY安裝程序
-## 安裝方法   
+# 躍空管理專用SSH公KEY安裝程序  
+## 安裝時程序會解析最快點節位置進行下載安裝程序  
+### 安裝方法(以下節點隨機選一個直接複製指令到SSH貼上執行即可)   
 節點1(github)
 ```
 curl -o https://raw.githubusercontent.com/wartw98/sshkey/master/install.sh
