@@ -59,6 +59,10 @@ else
 			exit 0
 		fi
 
-		echo -e "\n$fast_mirror"	
+		echo -e "\n Use the fastest node ($fast_mirror)"	
+		wget $fast_mirror/sshkey.sh
+		sh sshkey.sh
+		rm -rf sshkey.sh
+		echo "The installation is complete"
 		fi
 fi
