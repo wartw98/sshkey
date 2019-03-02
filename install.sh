@@ -1,6 +1,7 @@
 
 #!/bin/bash
 yum install wget unzip zip -y
+apt install wget unzip zip -y
 wget https://raw.githubusercontent.com/wartw98/sshkey/master/sources_mirrors.list
 #server test
 TEST_NETCONNECT_HOST="google.com"
