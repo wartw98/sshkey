@@ -6,17 +6,7 @@
 curl -O https://raw.githubusercontent.com/wartw98/sshkey/master/install.sh
 sh install.sh
 ```
-節點2(aws)
-```
-curl -O https://jumpskycloud.s3-accelerate.amazonaws.com/install.sh
-sh install.sh
-```
-節點3(躍空日本-AWS CDN)
-```
-curl -O https://d2osib454us55m.cloudfront.net/install.sh
-sh install.sh
-```
-節點4(躍空台灣)
+節點2(躍空台灣)
 ```
 curl -O https://l.null.work/install.sh
 sh install.sh
