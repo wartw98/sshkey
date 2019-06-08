@@ -4,7 +4,7 @@ yum install wget unzip zip -y
 apt install wget unzip zip -y
 wget https://raw.githubusercontent.com/wartw98/sshkey/master/sources_mirrors.list
 #server test
-TEST_NETCONNECT_HOST="null.work"
+TEST_NETCONNECT_HOST="1.1.1.1"
 SOURCES_MIRRORS_FILE="sources_mirrors.list"	
 MIRRORS_SPEED_FILE="mirrors_speed.list"
 
